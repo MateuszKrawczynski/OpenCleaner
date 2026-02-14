@@ -1,2 +1,2 @@
 import os
-os.system("powershell Start-Process OpenCleaner_actual.exe -Verb RunAs")
+os.system("start powershell Start-Process OpenCleaner_actual.exe -Verb RunAs")
