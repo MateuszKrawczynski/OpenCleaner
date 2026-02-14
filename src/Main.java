@@ -7,8 +7,12 @@ import java.io.FileWriter;
 public class Main {
     public static ImageIcon globalAppIcon = new ImageIcon("img/icon.png");
     public static MainFrame mainframe;
+
+
     public static void main(String[] args){
+
         mainframe = new MainFrame();
+
             if (!(new File("customization.txt").exists())){
                 try{
                 new File("customization.txt").setWritable(true);
