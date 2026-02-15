@@ -1,0 +1,64 @@
+body{
+    background-color: aliceblue;
+
+}
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:50px;
+    color: navy;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:30px;
+    color:green;
+
+}
+.author{
+    font-style: italic;
+}
+button{
+    background-color: black;
+    color:wheat;
+    padding:20px;
+    border-radius: 10px 10px 10px 10px;
+    border-style:none;
+    font-size:30px;
+    
+
+}
+button:hover{
+    background-color: rgb(17, 17, 17);
+    font-style: italic;
+}
+.title{
+    background-color: burlywood;
+    border-style: double;
+    border-radius: 50px 50px 50px 50px;
+    width:80%;
+    padding:30px;
+    border-width: 10px;
+}
+.sub{
+    background-color:rgb(161, 252, 255);
+    border-style:double;
+    border-radius: 50px 50px 50px 50px;
+    width:80%;
+    border-width: 10px;
+    padding:30px;
+}
+a{
+        font-style: normal;
+    }
+h3{
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+    color:purple;
+}
+.info{
+    background-color: rgb(236, 208, 254);
+    border-style: double;
+    border-radius: 50px 50px 50px 50px;
+    width:80%;
+    padding:30px;
+    border-width: 10px;
+}
